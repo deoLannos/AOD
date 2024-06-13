@@ -9,8 +9,6 @@
 }
 
 .block {
-  &__image {
-  }
   &__text {
     margin-top: 25px;
   }
@@ -46,14 +44,12 @@
   &__image-main {
     flex: 0 1 66.667%;
     position: relative;
-    background-image: url(/img/block3/bike.png);
+    background-image: url(img/block3/bike.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     top: 0;
     left: 0;
-  }
-  &__bg {
   }
 
   &__column {
@@ -97,7 +93,7 @@
   }
   &__bg {
     position: absolute;
-    background-image: url(/img/block3/sit.png);
+    background-image: url(img/block3/sit.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -108,8 +104,6 @@
   }
 }
 /////////////////////////
-.boriosa {
-}
 .boriosa__row {
   display: flex;
 }
@@ -155,7 +149,7 @@
 }
 .boriosa__bg {
   position: absolute;
-  background-image: url(/img/block4/sit2.png);
+  background-image: url(img/block4/sit2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -167,7 +161,7 @@
 .boriosa__image-main {
   flex: 0 1 66.667%;
   position: relative;
-  background-image: url(/img/block4/water.png);
+  background-image: url(img/block4/water.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -182,7 +176,7 @@
   &__image-since {
     flex: 0 1 33.333%;
     position: relative;
-    background-image: url(/img/block5/since.png), url(/img/block5/rama.png);
+    background-image: url(img/block5/since.png), url(img/block5/rama.png);
     background-repeat: no-repeat;
     background-position: center, center;
     background-size: 208px 67px, cover;
@@ -206,7 +200,7 @@
   }
   &__bg {
     position: absolute;
-    background-image: url(/img/block5/mavic.png);
+    background-image: url(img/block5/mavic.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -219,7 +213,7 @@
     flex: 0 1 33.333%;
     flex: 0 1 33.333%;
     position: relative;
-    background-image: url(/img/block5/red-bike.png);
+    background-image: url(img/block5/red-bike.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -309,7 +303,7 @@
   }
   &__top-left-bg {
     position: absolute;
-    background-image: url(/img/foto-block/brookssmal.png);
+    background-image: url(img/foto-block/brookssmal.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -325,7 +319,7 @@
   }
   &__top-right-bg {
     position: absolute;
-    background-image: url(/img/foto-block/sit-wall.png);
+    background-image: url(img/foto-block/sit-wall.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -340,7 +334,7 @@
   }
   &__bottom-big-bg {
     position: absolute;
-    background-image: url(/img/foto-block/brooks-big.png);
+    background-image: url(foto-block/brooks-big.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -365,7 +359,7 @@
   }
   &__left-bg {
     position: absolute;
-    background-image: url(/img/foto-block/bike-bag.png);
+    background-image: url(img/foto-block/bike-bag.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -385,7 +379,7 @@
   }
   &__right-bg {
     position: absolute;
-    background-image: url(/img/foto-block/bike-black.png);
+    background-image: url(img/foto-block/bike-black.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -406,7 +400,7 @@
   }
   &__top-big-bg {
     position: absolute;
-    background-image: url(/img/foto-block/shop.png);
+    background-image: url(img/foto-block/shop.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -424,7 +418,7 @@
   }
   &__bottom-left-bg {
     position: absolute;
-    background-image: url(/img/foto-block/brown-sit.png);
+    background-image: url(img/foto-block/brown-sit.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -440,7 +434,7 @@
   }
   &__bottom-right-bg {
     position: absolute;
-    background-image: url(/img/foto-block/bag.png);
+    background-image: url(img/foto-block/bag.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -487,8 +481,6 @@
     color: #848789;
     font-size: 20px;
     font-family: $kalam-font;
-  }
-  &__form {
   }
   &__row {
     display: flex;
@@ -604,7 +596,7 @@
     margin-left: 10px;
     &::after {
       content: "";
-      background: url(/img/footer/Y\ E\ B\ O\ Logo.png);
+      background: url(img/footer/Y\ E\ B\ O\ Logo.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
