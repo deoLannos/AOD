@@ -121,7 +121,7 @@ h6 {
   flex: 1 0 100%;
 }
 .main-block__bg {
-  background-image: url(img/main-block/main-bg.png);
+  background-image: url(../img/main-block/main-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
