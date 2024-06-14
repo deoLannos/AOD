@@ -44,10 +44,11 @@
   &__image-main {
     flex: 0 1 66.667%;
     position: relative;
-    background-image: url(../img/block3/bike.png);
+    background-image: url(../img/block3/bike-1-logo.png),
+      url(../img/block3/bike.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto auto, cover;
     top: 0;
     left: 0;
   }
@@ -161,10 +162,11 @@
 .boriosa__image-main {
   flex: 0 1 66.667%;
   position: relative;
-  background-image: url(../img/block4/water.png);
+  background-image: url(../img/block4/bike-2-logo.png),
+    url(../img/block4/water.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto auto, cover;
   top: 0;
   left: 0;
 }
@@ -179,7 +181,7 @@
     background-image: url(../img/block5/since.png), url(../img/block5/rama.png);
     background-repeat: no-repeat;
     background-position: center, center;
-    background-size: 208px 67px, cover;
+    background-size: auto auto, cover;
     top: 0;
     left: 0;
   }
