@@ -1,19 +1,16 @@
 @charset "UTF-8";
-/* Обнуление отступов и границы */
 * {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-/* Меняем подсчет ширины блока */
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-/* убираем линии обводки у некоторых браузеров */
 :focus,
 :active {
   outline: none;
@@ -24,7 +21,6 @@ a:active {
   outline: none;
 }
 
-/* Делаем эти теги блочными */
 nav,
 footer,
 header,
@@ -32,9 +28,7 @@ aside {
   display: block;
 }
 
-/* Уравниваем поведение шрифтов и элементов 
-  для разных браузеров */
-html,
+для разных браузеров html,
 body {
   height: 100%;
   width: 100%;
@@ -46,17 +40,13 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* Просим теги form наследовать 
-  семейство шрифта */
-input,
+семейство шрифта input,
 button,
 textarea {
   font-family: inherit;
 }
 
-/* Убираем некоторые особености в разных 
-  браузерах */
-input::-ms-clear {
+браузерах input::-ms-clear {
   display: none;
 }
 
@@ -86,7 +76,6 @@ img {
   vertical-align: top;
 }
 
-/* Обнуляем заголовки */
 h1,
 h2,
 h3,
@@ -125,6 +114,8 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+  background-attachment: fixed;
   position: absolute;
   top: 0;
   left: 0;
