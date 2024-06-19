@@ -311,6 +311,11 @@ h6 {
   margin: 0 auto;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .generation__body {
+    padding: 50px 0 50px 0;
+  }
+}
 
 .block__text {
   margin-top: 25px;
@@ -324,7 +329,12 @@ h6 {
   text-transform: uppercase;
   font-size: 15px;
   color: #353738;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
+}
+@media (max-width: 767px) {
+  .block__title {
+    font-size: 20px;
+  }
 }
 .block__main {
   font-size: 13px;
@@ -336,9 +346,20 @@ h6 {
     padding: 0 15px 0 15px;
   }
 }
+@media (max-width: 767px) {
+  .block__main {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
 
 .vintage__row {
   display: flex;
+}
+@media (max-width: 767px) {
+  .vintage__row {
+    flex-direction: column;
+  }
 }
 .vintage__image-main {
   flex: 0 1 66.667%;
@@ -349,6 +370,11 @@ h6 {
   background-size: auto auto, cover;
   top: 0;
   left: 0;
+}
+@media (max-width: 767px) {
+  .vintage__image-main {
+    flex: 0 1 auto;
+  }
 }
 .vintage__column {
   flex: 0 1 33.333%;
@@ -361,12 +387,28 @@ h6 {
   max-width: 358px;
   padding: 65px 0 49px 0;
 }
+@media (max-width: 767px) {
+  .vintage .vintage-block {
+    max-width: 960px;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 50px 20px 50px 20px;
+  }
+}
 .vintage .block__main_vintage {
   text-align: left;
   position: relative;
   padding-bottom: 30px;
   font-size: 12px;
   line-height: 20px;
+}
+@media (max-width: 767px) {
+  .vintage .block__main_vintage {
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0 20px 0 20px;
+    text-align: center;
+  }
 }
 .vintage .block__main_vintage::before {
   position: absolute;
@@ -377,6 +419,11 @@ h6 {
   right: 42%;
   background-color: rgba(53, 55, 56, 0.2);
 }
+@media (max-width: 767px) {
+  .vintage .block__main_vintage::before {
+    display: none;
+  }
+}
 .vintage__image-small {
   position: relative;
   min-width: 100%;
@@ -385,6 +432,11 @@ h6 {
 @media (max-width: 1290px) {
   .vintage__image-small {
     width: 435px;
+  }
+}
+@media (max-width: 1290px) and (max-width: 767px) {
+  .vintage__image-small {
+    max-width: none;
   }
 }
 .vintage__bg {
