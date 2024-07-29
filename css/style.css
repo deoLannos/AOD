@@ -362,15 +362,26 @@ h6 {
     flex-direction: column;
   }
 }
-.vintage__image-main {
+.vintage__image-main-block {
   flex: 0 1 66.667%;
   position: relative;
+  min-height: 300px;
+}
+@media (max-width: 767px) {
+  .vintage__image-main-block {
+    flex: 1 1 100%;
+  }
+}
+.vintage__image-main-bg {
+  position: absolute;
   background-image: url(../img/block3/bike-1-logo.png), url(../img/block3/bike.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto auto, cover;
-  top: 0;
+  bottom: 0px;
   left: 0;
+  width: 100%;
+  height: 100%;
 }
 .vintage__column {
   flex: 0 1 33.333%;
@@ -461,6 +472,11 @@ h6 {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 767px) {
+  .boriosa__column {
+    order: 2;
+  }
+}
 
 .boriosa-block {
   margin: 0 auto;
@@ -526,7 +542,9 @@ h6 {
 }
 
 .boriosa__image-main {
+  order: 1;
   flex: 0 1 66.667%;
+  min-height: 300px;
   position: relative;
   background-image: url(../img/block4/bike-2-logo.png), url(../img/block4/water.png);
   background-repeat: no-repeat;
@@ -534,6 +552,11 @@ h6 {
   background-size: auto auto, cover;
   top: 0;
   left: 0;
+}
+@media (max-width: 767px) {
+  .boriosa__image-main {
+    order: 1;
+  }
 }
 
 .hulot__row {
